@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;          /*For Adjusting our WebPage in right proper box format*/
+}
+
+/*Body*/
+body {                                       
+    background-image: linear-gradient(rgb(0, 204, 255), rgba(0, 255, 255, 0.781));
+    margin: 10px 20px 15px 20px;
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    padding: 30px 30px;
+    border: 2px solid rgba(38, 179, 179, 0.808);
+    /* text-align: center; */
+    /* background-color: rgb(120, 184, 230); */
+    background-image: linear-gradient(rgb(0, 89, 255), rgb(0, 255, 242));
+    border-radius: 3px;
+    /* box-shadow: 1px 1px 1px 1px rgba(127, 106, 168, 0.808); */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+}
+
+input[type="submit"] {
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    width: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 43%;                            /*For making our submit button in center and this only worked in this case*/
+}
+input[type="submit"]:hover {
+    background-color: rgba(0, 217, 255, 0.808);
+}
